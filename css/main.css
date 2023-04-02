@@ -1,0 +1,8 @@
+.invalid {
+    outline: red;
+    border: 2px solid red;
+}
+
+input {
+    display: block;
+}

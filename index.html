@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod 6 Lab 1</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <label for="keywordFilter">Keyword</label>
+    <input id="keywordFilter" value="xa">
+
+    <label for="firstNameSort">Sort by First Name</label>
+    <select id="firstNameSort">
+        <option value="asc">asc</option>
+        <option value="dsc">dsc</option>
+    </select>
+    <div class="content" id="content__addStudent">
+    <form id="addStudent">
+        <label for="fNameInput">First Name</label>
+        <input id="fNameInput" type="text" required>
+
+        
+        <label for="lNameInput">Last Name</label>
+        <input id="lNameInput" type="text" required>
+
+        
+        <label for="uNameInput">User Name</label>
+        <input id="uNameInput" type="text" required>
+
+        
+        <label for="emailInput">Email</label>
+        <input id="emailInput" type="text" required>
+        
+        <label for="dateInput">Birthday</label>
+        <input id="dateInput" type="date" required>
+
+        <input type="submit" value="Add Student">
+    </form>
+
+</div>
+<div class="content" id="content__listStudent">
+    <div id="studentList">
+
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
